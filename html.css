@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Lê Đăng Khoa</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Thêm dòng này để hiển thị icon Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <div class="profile-header">
+        <h1 id="cv-name" style="color: #426ef0;">Lê Đăng Khoa</h1>
+        <div class="contact-row">
+            <span class="contact-item"><span class="material-symbols-outlined">call</span>+84 937861865</span>
+            <span class="contact-item"><span class="material-symbols-outlined">mail</span>KHOA.LD04882@sinhvien.hoasen.edu.vn</span>
+        </div>
+        <div class="social-row">
+            <a href="#" class="social-item"><span class="material-symbols-outlined">folder</span>Linkedin</a>
+            <a href="https://github.com/KhoaLD048" class="social-item" target="_blank"><span class="material-symbols-outlined">code</span>Github</a>
+            <a href="https://www.facebook.com/le.khoa.2511/" class="social-item" target="_blank"><span class="material-symbols-outlined">language</span>Facebook</a>
+        </div>
+    </div>
+
+    <h2 id="apply-role" style="color: #0D5EA6;">Thực tập sinh IT</h2>
+    <h2 id="company">Công ty ITSS</h2>
+
+    <h3><span class="material-symbols-outlined">person</span>Giới thiệu bản thân</h3>
+    <hr>
+    <p>
+        I'm a Software Engineer with 1 year of experience in developing web and backend applications..<br>
+        I've worked with modern technologies such as ReactJS, Node.js, and NestJS, and have contributed to both client-side and server-side features.<br>
+        I have experience working in agile teams, participating in code reviews, and delivering high-quality, maintainable code.
+    </p>
+
+    <h3><span class="material-symbols-outlined">school</span>Trình độ học vấn</h3>
+    <hr>
+    <p><i>Cử nhân Công Nghệ Thông Tin – <b>Đại học Hoa Sen</b></i></p>
+    
+
+    <h3><span class="material-symbols-outlined">rewarded_ads</span>Chứng chỉ</h3>
+    <hr>
+    <p>IELTS - 6.5 - Mục tiêu tiếp theo là 7.0</p>
+
+    <h3><span class="material-symbols-outlined">favorite</span>Sở thích</h3>
+    <hr>
+    <ul>
+        <li>Chơi game</li>
+        <li>Nghe nhạc</li>
+        <li>Du lịch</li>
+        <li>Ngủ</li>
+        <li>Coi đá bóng</li>
+    </ul>
+
+    <h3><span class="material-symbols-outlined">psychology</span>Kỹ năng</h3>
+    <hr>
+    <p>
+        <b>Frontend:</b> Angular - ReactJS - NextJS - React Native (basic) - VueJS (basic)<br>
+        <b>Backend:</b> ExpressJS - NestJS - Django (basic)<br>
+        <b>Database:</b> MySQL - PostgreSQL - Firebase - MongoDB (basic)
+    </p>
+</body>
+</html>
