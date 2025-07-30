@@ -1,0 +1,116 @@
+body {
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 30px auto;
+    color: #222;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px #0001;
+}
+
+h1 {
+    text-align: center;
+    color: #426ef0;
+    margin-bottom: 0;
+}
+
+p, ul {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+a {
+    color: #426ef0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #426ef0;
+    margin: 8px 0 16px 0;
+    opacity: 0.2;
+}
+
+h3 {
+    color: #426ef0;
+    margin-bottom: 4px;
+    margin-top: 24px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+h3::before {
+    content: "◉";
+    color: #426ef0;
+    font-size: 0.9em;
+    margin-right: 4px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+b {
+    color: #222;
+}
+
+i {
+    color: #222;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.profile-header h1 {
+    margin-bottom: 16px;
+}
+
+.profile-header p {
+    margin: 12px 0;
+}
+
+.contact-row, .social-row {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 8px 0;
+    flex-wrap: wrap;
+}
+
+.contact-item, .social-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #222;
+    font-size: 1em;
+}
+
+.social-item {
+    color: #426ef0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.social-item:hover {
+    color: #233b80;
+    text-decoration: underline;
+}
+
+.material-symbols-outlined {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+<link rel="stylesheet" href="style.css">
